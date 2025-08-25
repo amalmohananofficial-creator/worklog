@@ -18,7 +18,7 @@ SCOPE = [
 ]
 
 # Use your downloaded credential file
-CREDS = Credentials.from_service_account_file("hr-work-log-458400127634", scopes=SCOPE)
+CREDS = Credentials.from_service_account_file("CREDENTIALS.json", scopes=SCOPE)
 gc = gspread.authorize(CREDS)
 service = build("sheets", "v4", credentials=CREDS)
 
@@ -469,5 +469,6 @@ def healthz():
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port, debug=False)
+
 
 
