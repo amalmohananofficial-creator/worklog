@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "hr-work-log",
+  "private_key_id": "458400127634163822c1be116e08b0b49c245ae7",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDAotZcYhc/Gqea\nXJu7zdRxQWqAeP0pw5GH2QiHzPzN0ggwTeXaNM+Lt4SB58Rw4nXY2AilO23qg5Mt\n89zPDEUfEeMMumCJj5PnNgdumQHCv17FPGUfSF+SXdAVc/Ch9tDFb7v358HATQw5\n5WQClL40jJNe641aylgrM61r/euX7h0ErOx4QOkL61YY5JF8dnzYku1EdK6s/pIr\nRyaRLzEuXmntIzpxpK8ha/123hNZlCfPPVScGxPHSehhRPAsQ7VRT5b9ZWdteGNa\nKmOUEkwFP2B3+hUZbLPzwxcuzeF2eS6DAYZRVZJpBsSxzWt6QKTyFVFuZgjz6FIR\n+oCZiaXvAgMBAAECggEAC5tEEyON3FgndQjTZp4LiMS06AdiKYaxBAsIP+ESnPa6\nAOm7SZ8Y9NrFJGvpzWtiR63B3O1sZ/mEKqagzTt4sVs135RzMJadW2Gep66XCTwt\nN5u19AvmRj6vb5DMFNYhf2PbYspsmsDfAGCuhUFKXIbZHO+lqqy6YeVRM5/ZoWO1\nHd0x+1V8K7JTyx+DQfhnNqZjCKMHvQwO8rnl/tK7juJMoOUZ56LuvRePopx4y/yy\nzgEyNaa4WzCvp0keBuFIgUN0CZmzZadUa1xc6em5QzPaa38zTguqVfTLJDRrfBl2\n9IxnlsvrG/8iWpaGQR396OcEjUFX+3OpSxyC3OmjUQKBgQD48Q+uoR/QAmPvllg/\nDDguWCGGpNnX+NsVHxu04l+zhwh7qh4rgSq178nk+a7p2Tnqs6NnR8TS8ALykV7D\nj2AGGfU7YMS2h6UNUnyoP8VR9Dn1FktmdSd17ldKSxCmgIs6g444mEAoVcyvqyUM\nyXDr3HQQFl0b6arVxsK+0eoGtQKBgQDGGRVG+A4n3znk9880N48Y1sgqpv3Vnj0T\naC0gSyNb1hEyeV3TjHOCVWapkmYig1MDO2mBWc8Zg+wN42KcH8PexHktQOLBRvuz\nNrIqbvhcE16F6xuMSVAnDUz0obm0z6kIe+IHG5306FXk2itRtEvf4euWjwTpnf5r\npZAlcTwckwKBgGIFISSkos8XsdvrufGRUSnGX+URUgl9Hl6RsiomHIKm/8sZr+l3\nYabjtP5o5duEQg7NDuEi3DgmczKp1MNx1+BvJiVsM+ifPnkhap4hBgQAAzYiwiuk\no5YG8+334qV85dVzaXOVV2XKat8cp2kChGkKk9SlyaGs/yxPp+zU4K4lAoGAW2yc\nG0LEFba6G2ga4rh5fDcz7itfnsUG3vwHR44l5W5oRWkp2kZJ0O7lEIGWTXtaRnWW\n/bGbGOV/ffFhQziNxzPZ0P7PJ/BAnbcyhs7sJGJ0D04wSpBTQ5Kp34T8Fex40IeM\nC0e9oJfRfGsL7wtMsSis97FNzRuzna6tVfpqia0CgYEAkncEXkXYuUKP/MI/zYAv\n2Bq2Tw7ppUA9Yvnn2l95vMpUVAz2P9KhPO9eoxQyVXpCcy5urHB1YXZc0wFvSzWC\n1WUqYmeaTeWrzlh49qTpPrC/bVvX2P62RuNacHNY/tv+WD7R2o7ld4rEtQEfJOmr\nI9Cjpd4k1vTMsz3Kljd+2HQ=\n-----END PRIVATE KEY-----\n",
+  "client_email": "hr-work-log-service@hr-work-log.iam.gserviceaccount.com",
+  "client_id": "118406544491199056962",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/hr-work-log-service%40hr-work-log.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
