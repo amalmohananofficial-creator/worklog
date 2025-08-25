@@ -6,6 +6,15 @@ from googleapiclient.discovery import build
 from datetime import datetime, date, timedelta
 import secrets
 
+import json
+
+# Load your original credentials.json
+with open("CREDENTIALS.json", "r") as f:
+    creds = json.load(f)
+
+# Dump as a single-line JSON string (Render safe)
+print(json.dumps(creds))
+
 
 import gspread
 from google.oauth2.service_account import Credentials
@@ -501,6 +510,7 @@ def healthz():
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port, debug=False)
+
 
 
 
