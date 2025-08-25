@@ -6,6 +6,34 @@ from googleapiclient.discovery import build
 from datetime import datetime, date, timedelta
 import secrets
 
+
+import gspread
+from google.oauth2.service_account import Credentials
+from googleapiclient.discovery import build
+from datetime import datetime, date, timedelta
+import secrets
+import os, json
+from dotenv import load_dotenv
+
+# Load .env file so GOOGLE_CREDENTIALS is available locally
+load_dotenv() 
+
+app = Flask(__name__)
+app.secret_key = secrets.token_hex(16)
+
+# ------------------------------
+# Google API Setup
+# ------------------------------
+SCOPE = [
+    "https://www.googleapis.com/auth/spreadsheets",
+    "https://www.googleapis.com/auth/drive",
+]
+
+creds_info = json.loads(os.environ["GOOGLE_CREDENTIALS"])
+CREDS = Credentials.from_service_account_info(creds_info, scopes=SCOPE)
+
+
+
 app = Flask(__name__)
 app.secret_key = secrets.token_hex(16)
 
@@ -473,6 +501,7 @@ def healthz():
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port, debug=False)
+
 
 
 
